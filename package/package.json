@@ -1,6 +1,6 @@
 {
   "name": "fancyb",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "module": "dist/fancy.min.js",
   "browser": "dist/fancy.umd.js",
