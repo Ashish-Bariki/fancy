@@ -1,0 +1,26 @@
+{
+  "name": "fancy",
+  "version": "1.0.0",
+  "description": "",
+  "module": "dist/fancy.min.js",
+  "browser": "dist/fancy.umd.js",
+  "main": "dist/fancy.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "rollup": "^2.79.0",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.54.9"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
